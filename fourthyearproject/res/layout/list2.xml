@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" 
+    android:background="#CF0D17">
+    
+    <RelativeLayout
+        android:id="@+id/workout_details_area2"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:background="#F1F8E9" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Location list"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:text="Please Check the locations you have already visited"
+            android:textSize="24sp" />
+        
+    </RelativeLayout>
+
+     <ScrollView
+         android:id="@+id/scrollView1"
+         android:layout_width="600dp"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/workout_details_area2"
+         android:layout_marginTop="1dp">
+
+         <RelativeLayout
+             android:id="@+id/workout_details_area"
+             android:layout_width="fill_parent"
+             android:layout_height="905dp"
+             android:layout_alignParentBottom="true"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/workout_details_area2"
+             android:layout_marginTop="1dp"
+             android:background="#F1F8E9" >
+
+             <CheckBox
+                 android:id="@+id/checkBox1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_marginTop="5dp"
+                 android:text="Newbridge - Riverbank Arts Centre"
+                 android:textSize="23sp" />
+
+             <CheckBox
+                 android:id="@+id/checkBox2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/checkBox1"
+                 android:text="Curragh Race Course"
+                 android:textSize="23sp" />
+
+             <CheckBox
+                 android:id="@+id/checkBox3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/checkBox2"
+                 android:text="Naas - Mondello Park"
+                 android:textSize="23sp" />
+
+             <CheckBox
+                 android:id="@+id/checkBox4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/checkBox3"
+                 android:text="Kildare Village Outlet Shopping"
+                 android:textSize="23sp" />
+
+             <CheckBox
+                 android:id="@+id/checkBox5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/checkBox4"
+                 android:text="Donadea - Forest Park"
+                 android:textSize="23sp" />
+
+             <CheckBox
+                 android:id="@+id/checkBox6"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/checkBox5"
+                 android:text="Naas - Punchestown Racecourse"
+                 android:textSize="23sp" />
+
+             <CheckBox
+                 android:id="@+id/checkBox10"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/checkBox6"
+                 android:text="Castledermot - Kilkea Golf Club"
+                 android:textSize="23sp" />
+
+             <CheckBox
+                 android:id="@+id/checkBox16"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/checkBox10"
+                 android:text="Kildare - Irish National Stud + Japanese Gardens"
+                 android:textSize="23sp" />
+
+             <CheckBox
+                 android:id="@+id/checkBox7"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/checkBox16"
+                 android:text="Newbridge Silverware"
+                 android:textSize="23sp" />
+
+             <CheckBox
+                 android:id="@+id/checkBox13"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/checkBox7"
+                 android:text="Naas - Moat Theatre"
+                 android:textSize="23sp" />
+
+             <CheckBox
+                 android:id="@+id/checkBox8"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/checkBox13"
+                 android:text="@string/checkBox1"
+                 android:textSize="23sp" />
+
+             <CheckBox
+                 android:id="@+id/checkBox9"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/checkBox8"
+                 android:text="Carbury - Balindoolin House"
+                 android:textSize="23sp" />
+
+             <CheckBox
+                 android:id="@+id/checkBox11"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/checkBox9"
+                 android:text="Celbridge - Castletown House"
+                 android:textSize="23sp" />
+
+             <CheckBox
+                 android:id="@+id/checkBox12"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/checkBox11"
+                 android:text="Clane - Abbeyfield Farm "
+                 android:textSize="23sp" />
+
+             <CheckBox
+                 android:id="@+id/checkBox14"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/checkBox12"
+                 android:text="Donadea - Wallaby Woods"
+                 android:textSize="23sp" />
+
+             <CheckBox
+                 android:id="@+id/checkBox15"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/checkBox14"
+                 android:text="Kilcock - Art Gallery"
+                 android:textSize="23sp" />
+
+             <CheckBox
+                 android:id="@+id/checkBox17"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/checkBox15"
+                 android:text="Leixlip Castle"
+                 android:textSize="23sp" />
+
+             <CheckBox
+                 android:id="@+id/checkBox18"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/checkBox17"
+                 android:text="Maynooth Castle"
+                 android:textSize="23sp" />
+
+         </RelativeLayout>
+
+     </ScrollView>
+
+</RelativeLayout>
+
+

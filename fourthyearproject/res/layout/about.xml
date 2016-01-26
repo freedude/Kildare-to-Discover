@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F1F8E9"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/abouttxt1"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:text="Kildare To Discover offers users the opportunity to plan an exciting day out in county Kildare, by providing dynamic information on its most popular attractions, showing there precise whereabouts in the form of color co-ordinated Google Map markers."
+            android:textSize="31sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/abouttxt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Various locations display live information about the area, such as Current Weather, Theatre Listings or Sporting event times."
+            android:textSize="31sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/abouttxt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="You can use this app to plan out the perfect trip to Kildare, ensuring you embark on the idyllic day out in the Thoroughbred County!"
+            android:textSize="31sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+    <TextView
+        android:id="@+id/openingtext1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="helvetica"
+        android:gravity="center"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:text="Kildare to Discover"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#212121"
+        android:textSize="65sp"
+        android:textStyle="bold"
+        android:width="100dp" />
+
+    <Button
+        android:id="@+id/wheretogobtn"
+        android:layout_width="600dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="640dp"
+        android:background="@drawable/roundedbuttongreen"
+        android:text="Where to Go .."
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/whattodobtn"
+        android:layout_width="600dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="720dp"
+        android:background="@drawable/roundedbuttongreen"
+        android:text="What to Do .."
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/aboutbtn"
+        android:layout_width="600dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="800dp"
+        android:background="@drawable/roundedbuttongreen"
+        android:text="About"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="480dp"
+        android:layout_height="480dp"
+        android:layout_below="@+id/openingtext1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/kildarecrest" />
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8E9"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="745dp" >
+
+        <TextView
+            android:id="@+id/riverbanklocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/riverbankdescription"
+            android:layout_alignParentTop="true"
+            android:text=""
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imageLabel"
+            android:layout_width="600dp"
+            android:layout_height="350dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/riverbank" />
+
+        <TextView
+            android:id="@+id/riverbankdescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageLabel"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:text=""
+            android:textSize="25sp" />
+
+        <WebView
+            android:id="@+id/webtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descbutton"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/descbutton"
+            android:layout_width="600dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageLabel"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/roundedbuttongreen"
+            android:paddingTop="0dp"
+            android:text="What&apos;s Coming Up?"
+            android:textColor="#ffffff" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_alignBottom="@+id/descbutton"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="127dp"
+            android:background="#CF0D17" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/riverbankdescription"
+            android:layout_alignTop="@+id/view2"
+            android:layout_marginTop="5dp"
+            android:text="Opening Hours: 9am - 5.30pm"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text="TextView"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/View01"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/riverbankdescription"
+            android:background="#CF0D17" />
+
+    </RelativeLayout>
+
+</ScrollView>

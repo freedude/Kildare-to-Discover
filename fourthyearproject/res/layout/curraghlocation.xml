@@ -1,0 +1,94 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8E9"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="745dp" >
+
+        <TextView
+            android:id="@+id/curraghlocationview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/curraghdescription"
+            android:layout_alignParentTop="true"
+            android:text=""
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imageLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="375dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/curraghracecourse" />
+
+        <TextView
+            android:id="@+id/curraghdescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageLabel"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:text=""
+            android:textSize="25sp" />
+
+        <WebView
+            android:id="@+id/curraghweb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/curraghbutton"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/curraghbutton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageLabel"
+            android:layout_marginTop="370dp"
+            android:paddingTop="0dp"
+            android:text="What&apos;s Coming Up?" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/curraghdescription"
+            android:layout_alignTop="@+id/view2"
+            android:layout_marginTop="10dp"
+            android:text="Opening Hours: 2pm - 6pm"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/curraghtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text=""
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_alignBottom="@+id/curraghbutton"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="107dp"
+            android:background="@android:color/black" />
+    </RelativeLayout>
+
+</ScrollView>

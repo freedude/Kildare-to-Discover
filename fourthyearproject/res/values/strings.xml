@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kildare To Discover</string>
+    <string name="action_settings">Settings</string>
+    <string name="map_screen">Map of Tourist Locations in Kildare</string>
+    <string name="about_screen">About</string>
+    <string name="athylocation">Athy</string>
+    <string name="riverbanklocation">Riverbank</string>
+    <string name="curraghracecourse">Curragh Racecourse</string>
+    <string name="checkBox1">Athy Heritage Center</string>
+    <string name="checkBox2">Ballitore Quaker Museum</string>
+    <string name="list_screen">List of Kildare Tourist Locations</string>
+    <string name="kildarevillage">Kildare Village</string>
+    <string name="mondello">Mondello Racing Park</string>
+    <string name="donadea">Donadea Forest Park</string>
+    <string name="weather">Weather</string>
+    <string name="open_weather_maps_app_id">06e4f4211c1651f7b91ee4ea9ccf17e8</string>
+    <string name="VisitedList">Visited</string>
+
+</resources>
